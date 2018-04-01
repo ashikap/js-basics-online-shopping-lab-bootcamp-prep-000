@@ -10,21 +10,26 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+  var price = Math.round(Math.random()*100);
+  cart.push({[item]:price})
+  console.log(`${item} has been added to your cart.`)
+return getCart()
 }
 
 function viewCart() {
-  // write your code here
+  
 }
 
 function total() {
-  // write your code here
+   let t = 0;
+   return t;
 }
 
 function removeFromCart(item) {
-  // write your code here
-}
+  
+  }
 
 function placeOrder(cardNumber) {
-  // write your code here
-}
+  
+    }
+
